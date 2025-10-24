@@ -5,10 +5,10 @@ We try with length len = digits(n); if nothing > n exists for that length, try l
 
 ## How the recursion works
 
-digitCount[d] starts as d (the remaining times d may be used).
-We place digits to form a number of fixed length count.
-Base case (count==0): valid if for each d, digitCount[d] is either 0 (used exactly d times) or d (never used). If valid and curr > n, return curr.
-We stop early as soon as we find a valid answer.
+1. digitCount[d] starts as d (the remaining times d may be used).
+2. We place digits to form a number of fixed length count.
+3. Base case (count==0): valid if for each d, digitCount[d] is either 0 (used exactly d times) or d (never used). If valid and curr > n, return curr.
+4. We stop early as soon as we find a valid answer.
 
 # Approach B — Brute-force Scan
 
