@@ -3,7 +3,6 @@
 Given an array nums of length n + 2 containing the integers 0..n-1. Exactly two numbers appear twice, and every other number appears once. Return the two duplicated (“sneaky”) numbers in any order.
 
 This README explains two approaches:
-
 ## Approach 1 — Counting / Frequency Array
 ### Idea / Intuition
 Since all values are in 0..n-1, we can keep a frequency array count of size n.
