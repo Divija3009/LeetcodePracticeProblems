@@ -5,7 +5,6 @@
 The idea is greedy — for each group of consecutive balloons with the same color, we want to keep the one with the largest neededTime and remove all others.
 
 Steps:
-
 1. Initialize two variables:
 prev – keeps track of the previous balloon in the sequence and min – stores total minimum time.
 2. Iterate through the string colors and if the current balloon has the same color as the previous one:
