@@ -1,3 +1,6 @@
+import java.util.LinkedList;
+import java.util.List;
+
 class Solution {
  public int minimumPairRemoval(int[] nums) {
      List<Integer> list = new LinkedList<>();
